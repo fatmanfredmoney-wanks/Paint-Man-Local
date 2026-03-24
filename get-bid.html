@@ -1,0 +1,283 @@
+<html lang="en"><head><base href="/Users/phyrexiandreadnought/Documents/openCode/Paint.Man.Local.web/"><base href="/Users/phyrexiandreadnought/Documents/openCode/Paint.Man.Local.web/"><base href="/Users/phyrexiandreadnought/Documents/openCode/Paint.Man.Local.web/">
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get My Estimate — Paint Man Local</title>
+  <meta name="description" content="Book your $50 painting estimate with Paint Man Local. We'll come to your property, assess your needs, and deliver a full proposal within 24 hours.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,700;1,500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Stripe.js — swap YOUR_PUBLISHABLE_KEY when activating -->
+  <!-- <script src="https://js.stripe.com/v3/"></script> -->
+</head>
+<body>
+
+  <div class="insurance-strip">
+    Fully insured — Workman's Comp &amp; $1M+ Liability &nbsp;|&nbsp; Serving Eagle County since 1990
+  </div>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo" contenteditable="true">
+        <img src="assets/images/Local-2-removebg copy 3.png" alt="Paint Man Local" style="cursor: pointer; outline: rgb(16, 185, 129) solid 3px; width: 138px; height: 150px;">
+      </a>
+      <ul class="nav-menu">
+        <li contenteditable="true"><a href="index.html" contenteditable="true">Home</a></li>
+        <li contenteditable="true"><a href="services.html" contenteditable="true">Services</a></li>
+        <li contenteditable="true"><a href="gallery.html" contenteditable="true">Gallery</a></li>
+        <li contenteditable="true"><a href="reviews.html" contenteditable="true">Reviews</a></li>
+        <li contenteditable="true"><a href="ladder-rental.html" contenteditable="true">Ladder Rental</a></li>
+        <li contenteditable="true"><a href="blog.html" contenteditable="true">Blog</a></li>
+        <li contenteditable="true"><a href="contact.html" contenteditable="true">Contact</a></li>
+        <li contenteditable="true"><a href="get-bid.html" class="btn btn-secondary btn-sm active" contenteditable="true">Get My Estimate&nbsp;</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span contenteditable="true"></span><span contenteditable="true"></span><span contenteditable="true"></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <div class="container">
+      <p class="section-label" style="color:var(--green);" contenteditable="true">Let's Get the Ball Rolling</p>
+      <h1 contenteditable="true">Book Your Estimate</h1>
+      <p contenteditable="true">Fill out your project details and pay the $50 bid fee — we'll be at your door within ASAP!</p>
+    </div>
+  </div>
+
+  <section class="section-white">
+    <div class="container">
+      <div class="grid-2" style="align-items:start; gap:56px;">
+
+        <!-- Left: What you get -->
+        <div>
+          <div class="bid-summary">
+            <p class="section-label" style="color:var(--green);" contenteditable="true">Your Investment</p>
+            <h3 contenteditable="true">One flat bid fee</h3>
+            <div class="bid-price">$50</div>
+            <p contenteditable="true">Half the price of our premium service — same great inspection, same 24-hour turnaround.</p>
+            <ul class="bid-includes">
+              <li contenteditable="true">In-person visit to your property</li>
+              <li contenteditable="true">Full assessment of your painting needs</li>
+              <li contenteditable="true">Detailed written proposal within 24 hours</li>
+              <li contenteditable="true">Color consultation included</li>
+              <li contenteditable="true">No obligation to book after the estimate</li>
+            </ul>
+          </div>
+
+          <!-- What happens next -->
+          <div style="background:var(--off-white); border-radius:var(--radius); padding:28px;">
+            <h4 style="color:var(--blue-dark); margin-bottom:16px;" contenteditable="true">What happens after you book?</h4>
+            <div class="next-step-item">
+              <div class="step-num">1</div>
+              <p contenteditable="true">We confirm your booking by phone or email within a few hours.</p>
+            </div>
+            <div class="next-step-item">
+              <div class="step-num">2</div>
+              <p contenteditable="true">We come to your property and do a full walk-through assessment.</p>
+            </div>
+            <div class="next-step-item">
+              <div class="step-num">3</div>
+              <p contenteditable="true">You receive a detailed written proposal within 24 hours.</p>
+            </div>
+            <div class="next-step-item">
+              <div class="step-num">4</div>
+              <p contenteditable="true">Decide if you'd like to move forward — zero pressure, no obligation.</p>
+            </div>
+          </div>
+
+          <!-- Contact info below -->
+          <div style="margin-top:24px; padding:20px; background:var(--white); border-radius:var(--radius); box-shadow:var(--shadow);">
+            <p style="font-weight:700; color:var(--blue-dark); margin-bottom:12px;" contenteditable="true">Prefer to call or text?</p>
+            <div class="btn-group">
+              <a href="tel:+19704718301" class="btn btn-primary btn-sm" contenteditable="true">Call (970) 471-8301</a>
+              <a href="sms:+19704718301" class="btn btn-outline btn-sm" contenteditable="true">Send a Text</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Form + Payment -->
+        <div class="form-card">
+          <p class="section-label" contenteditable="true">Step 1 of 2</p>
+          <h3 style="margin-bottom:6px;" contenteditable="true">Tell us about your project</h3>
+          <p style="color:var(--gray); font-size:0.92rem; margin-bottom:28px;" contenteditable="true">Fill out the form, then complete payment to confirm your booking.</p>
+
+          <form class="local-form" id="bid-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="hidden" name="_subject" value="New Bid Request — Paint Man Local ($50)">
+            <input type="hidden" name="_next" value="thank-you.html">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname" contenteditable="true">First Name <span class="required" contenteditable="true">*</span></label>
+                <input type="text" id="fname" name="first_name" required="" placeholder="Tommy">
+              </div>
+              <div class="form-group">
+                <label for="lname" contenteditable="true">Last Name <span class="required" contenteditable="true">*</span></label>
+                <input type="text" id="lname" name="last_name" required="" placeholder="King">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email" contenteditable="true">Email <span class="required" contenteditable="true">*</span></label>
+                <input type="email" id="email" name="email" required="" placeholder="you@example.com">
+              </div>
+              <div class="form-group">
+                <label for="phone" contenteditable="true">Phone <span class="required" contenteditable="true">*</span></label>
+                <input type="tel" id="phone" name="phone" required="" placeholder="(970) 000-0000">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="address" contenteditable="true">Property Address <span class="required" contenteditable="true">*</span></label>
+              <input type="text" id="address" name="property_address" required="" placeholder="123 Main St, Vail, CO 81657">
+            </div>
+
+            <div class="form-group">
+              <label for="project_type" contenteditable="true">Project Type <span class="required" contenteditable="true">*</span></label>
+              <select id="project_type" name="project_type" required="">
+                <option value="" disabled="" selected="">Select what you need painted...</option>
+                <option value="interior">Interior — walls, ceilings, trim</option>
+                <option value="exterior">Exterior — siding, trim, eaves</option>
+                <option value="both">Both interior &amp; exterior</option>
+                <option value="deck">Deck or fence staining</option>
+                <option value="woodwork">Custom woodwork</option>
+                <option value="commercial">Commercial space</option>
+                <option value="other">Other / Not sure yet</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="home_size" contenteditable="true">Approximate Home Size</label>
+              <select id="home_size" name="home_size">
+                <option value="" disabled="" selected="">Rough estimate is fine...</option>
+                <option value="small">Under 1,500 sq ft</option>
+                <option value="medium">1,500 – 3,000 sq ft</option>
+                <option value="large">3,000 – 5,000 sq ft</option>
+                <option value="xlarge">5,000+ sq ft</option>
+                <option value="unsure">Not sure</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="description" contenteditable="true">Tell us more about the project</label>
+              <textarea id="description" name="project_description" placeholder="Any details that would help us prepare — specific rooms, special materials, timeline needs, known issues, etc."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="timeline" contenteditable="true">When are you hoping to get started?</label>
+              <select id="timeline" name="timeline">
+                <option value="" disabled="" selected="">Select a timeframe...</option>
+                <option value="asap">As soon as possible</option>
+                <option value="1month">Within 1 month</option>
+                <option value="3months">Within 3 months</option>
+                <option value="flexible">I'm flexible</option>
+              </select>
+            </div>
+
+            <!-- Payment Section -->
+            <div style="border-top:2px solid var(--gray-light); margin: 28px 0 24px;"></div>
+            <p class="section-label" style="margin-bottom:12px;" contenteditable="true">Step 2 of 2 — Payment</p>
+            <h4 style="margin-bottom:6px; color:var(--blue-dark);" contenteditable="true">Confirm your booking — $50</h4>
+            <p style="font-size:0.88rem; color:#555; margin-bottom:16px;" contenteditable="true">Payment confirms your estimate appointment. 100% applied toward your project if you move forward.</p>
+
+            <!-- Stripe Placeholder — Replace with real Stripe Checkout button -->
+            <div class="stripe-placeholder">
+              <p style="font-size:1rem; color:var(--blue-dark); font-weight:700; margin-bottom:6px;" contenteditable="true">💳 Payment Processing</p>
+              <p contenteditable="true">This is a prototype. To activate payments, connect a Stripe account and replace this section with a Stripe Checkout button or Payment Element.</p>
+              <div class="stripe-lock">🔒 Payments will be secured by Stripe</div>
+            </div>
+
+            <!--
+              STRIPE ACTIVATION:
+              1. Create a Stripe account at stripe.com
+              2. Create a Payment Link for $50 in your Stripe dashboard
+              3. Replace the stripe-placeholder div above with:
+                 <a href="YOUR_STRIPE_PAYMENT_LINK" class="btn btn-secondary" style="width:100%;">Pay $50 & Confirm Booking</a>
+              Or use Stripe.js for an embedded checkout experience.
+            -->
+
+            <button type="submit" class="btn btn-secondary" style="width:100%;">
+              Submit Project Details
+            </button>
+            <p class="form-note" style="text-align:center; margin-top:10px;" contenteditable="true">
+              After submitting, you'll receive payment instructions to confirm your booking.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reassurance strip -->
+  <section class="section-offwhite" style="padding:40px 0;">
+    <div class="container">
+      <div class="grid-3" style="text-align:center;">
+        <div>
+          <div style="font-size:2rem; margin-bottom:8px;">🛡️</div>
+          <h4 style="color:var(--blue-dark); margin-bottom:4px;" contenteditable="true">Fully Insured</h4>
+          <p style="font-size:0.88rem; color:#555; margin:0;" contenteditable="true">Workman's comp &amp; $1M+ liability</p>
+        </div>
+        <div>
+          <div style="font-size:2rem; margin-bottom:8px;">⏱️</div>
+          <h4 style="color:var(--blue-dark); margin-bottom:4px;" contenteditable="true">24-Hour Proposal</h4>
+          <p style="font-size:0.88rem; color:#555; margin:0;" contenteditable="true">Full written quote within one business day</p>
+        </div>
+        <div>
+          <div style="font-size:2rem; margin-bottom:8px;">🤝</div>
+          <h4 style="color:var(--blue-dark); margin-bottom:4px;" contenteditable="true">No Obligation</h4>
+          <p style="font-size:0.88rem; color:#555; margin:0;" contenteditable="true">The estimate is yours — book if it feels right</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/Local-2.png" alt="Paint Man Local" style="cursor: pointer; outline: rgb(16, 185, 129) solid 3px; width: 138px; height: 150px;">
+          <p contenteditable="true">Your friendly neighborhood painters. Serving Eagle County with quality, honesty, and a whole lot of pride since 1990.</p>
+          <p style="margin-top:1rem;" contenteditable="true"><strong style="color:var(--green);">&nbsp;Proud partners of the Vail Lacrosse Club&nbsp;</strong><strong style="font-size: 14.72px; color: var(--green);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong><strong style="font-size: 14.72px; color: var(--green);">Proud partners of the 12th Mountain Perspective nonprofit</strong></p>
+        </div>
+        <div>
+          <h4 contenteditable="true">Quick Links</h4>
+          <ul class="footer-links">
+            <li contenteditable="true"><a href="index.html" contenteditable="true">Home</a></li>
+            <li contenteditable="true"><a href="services.html" contenteditable="true">Services</a></li>
+            <li contenteditable="true"><a href="gallery.html" contenteditable="true">Gallery</a></li>
+            <li contenteditable="true"><a href="reviews.html" contenteditable="true">Reviews</a></li>
+            <li contenteditable="true"><a href="ladder-rental.html" contenteditable="true">Ladder Rental</a></li>
+            <li contenteditable="true"><a href="blog.html" contenteditable="true">Blog</a></li>
+            <li contenteditable="true"><a href="contact.html" contenteditable="true">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4 contenteditable="true">Contact</h4>
+          <p contenteditable="true">📍 08 Creamery Trail, Edwards, CO</p>
+          <p contenteditable="true">📞 <a href="tel:+19704718301" contenteditable="true">(970) 471-8301</a></p>
+          <p contenteditable="true">✉️ <a href="mailto:PaintManLocal@proton.me" contenteditable="true">PaintManLocal@proton.me</a></p>
+          <p style="margin-top:0.5rem; font-size:0.85rem; color:rgba(255,255,255,0.5);" contenteditable="true">Mon–Fri: 8am–6pm<br></p>
+        </div>
+        <div>
+          <h4 contenteditable="true">Questions?</h4>
+          <div class="footer-ctas">
+            <a href="tel:+19704718301" class="btn btn-outline-white btn-sm" contenteditable="true">Call Now</a>
+            <a href="sms:+19704718301" class="btn btn-outline-white btn-sm" contenteditable="true">Send a Text</a>
+            <a href="contact.html" class="btn btn-outline-white btn-sm" contenteditable="true">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span contenteditable="true">© 2024 Paint Man Local. All rights reserved.</span>
+        <span contenteditable="true">A subsidiary of <a href="https://www.paintmanvail.net" target="_blank" contenteditable="true">Paint Man Vail</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+
+
+</body></html>
